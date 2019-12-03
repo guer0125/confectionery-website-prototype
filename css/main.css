@@ -218,6 +218,10 @@ figure {
   text-decoration: none;
 }
 
+.full a:hover {
+  color: #814703;
+}
+
 section {
   padding-bottom: 1rem;
 }
