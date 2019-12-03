@@ -191,6 +191,7 @@ p, a {
 
 .boxes {
   background-color: #9a8979;
+  text-align: center;
 }
 
 figure {
@@ -202,6 +203,8 @@ figure {
 .hide {
   display: none;
 }
+
+
 
 .footer {
   display: flex;
@@ -332,6 +335,11 @@ html {
 
   .banner {
     max-height: 200px;
+  }
+
+  figure {
+    width: 32%;
+  }
 
 }
 
@@ -340,4 +348,5 @@ html {
   html {
     font-size: 130%;
   }
+
 }
