@@ -217,6 +217,19 @@ figure {
   color: #814703;
 }
 
+.boxes a {
+  color:  #fff;
+  display: block;
+  padding: .5em .75em;
+  background-color: #7f6f5d;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+section {
+  padding-bottom: 1rem;
+}
+
 
 
 .footer {
@@ -369,5 +382,8 @@ html {
   h2 {
     justify-content: left;
   }
+
+  .all-content {
+    top: 6rem;
 
 }
