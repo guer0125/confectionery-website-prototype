@@ -165,6 +165,10 @@ p, a {
   background-color: #000;
 }
 
+strong {
+  font-size: 3rem;
+}
+
 
 
 
@@ -202,6 +206,15 @@ figure {
 
 .hide {
   display: none;
+}
+
+.card-img a {
+  color: #000;
+  text-decoration: none;
+}
+
+.card-img a:hover {
+  color: #814703;
 }
 
 
@@ -288,7 +301,7 @@ display: block;
   }
 
   .banner {
-    max-height: 150px;
+    max-height: 225px;
     overflow: hidden;
   }
 
@@ -296,7 +309,7 @@ display: block;
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 5rem;
+    top: 7rem;
 }
 
 }
@@ -321,6 +334,10 @@ html {
   justify-content: center;
 }
 
+.banner {
+  max-height: 238px;
+}
+
 .hide {
   display: inline-block;
 }
@@ -334,7 +351,7 @@ html {
   }
 
   .banner {
-    max-height: 200px;
+    max-height: 250px;
   }
 
   figure {
@@ -347,6 +364,10 @@ html {
 
   html {
     font-size: 130%;
+  }
+
+  h2 {
+    justify-content: left;
   }
 
 }
