@@ -113,18 +113,20 @@ h2 {
   font-size: 2rem;
   font-weight: normal;
   margin: 0;
+  color: #fff;
 }
 
 p, a {
   font-size: 1rem;
   margin: 0;
   line-height: 1.5;
+  color: #fff;
 }
 
 .btn {
   position: relative;
   padding: .5em;
-  background-color: #333;
+  background-color: #7f6f5d;
   color: #fff;
   border: 1px solid #333;
   border-radius: 8px;
@@ -141,22 +143,6 @@ p, a {
   overflow: hidden;
   width: 100%;
   position: relative;
-}
-
-.img-big {
-  display: none;
-}
-
-.img-38 {
-  display: none;
-}
-
-.img-60 {
-  display: none;
-}
-
-.img-70 {
-  display: none;
 }
 
 .all-content {
@@ -363,18 +349,6 @@ section {
     display: inline-block;
   }
 
-  .img-small {
-    display: none;
-  }
-
-  .img-big {
-    display: none;
-  }
-
-  .img-38 {
-    display: block;
-  }
-
 }
 
 @media only screen and (min-width: 60em) {
@@ -392,28 +366,8 @@ section {
     width: 32%;
   }
 
-  .img-60 {
-    display: block;
-  }
-
-  .img-38 {
-    display: none;
-  }
-
 }
 
-
-@media only screen and (min-width: 70em) {
-
-  .img-70 {
-    display: block;
-  }
-
-  .img-60 {
-    display: none;
-  }
-
-}
 
 @media only screen and (min-width: 90em) {
 
@@ -427,14 +381,6 @@ section {
 
   .all-content {
     top: 6rem;
-  }
-
-  .img-big {
-    display: block;
-  }
-
-  .img-70 {
-    display: none;
   }
 
   .boxes {
