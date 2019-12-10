@@ -63,7 +63,6 @@ h1 {
   font-size: 1.25rem;
   display: inline-block;
   width: 30px;
-  float: left;
 }
 
 .nav-open,
@@ -144,6 +143,22 @@ p, a {
   position: relative;
 }
 
+.img-big {
+  display: none;
+}
+
+.img-38 {
+  display: none;
+}
+
+.img-60 {
+  display: none;
+}
+
+.img-70 {
+  display: none;
+}
+
 .all-content {
   position: absolute;
   left: 50%;
@@ -188,6 +203,7 @@ strong {
 .boxes {
   background-color: #9a8979;
   text-align: center;
+  padding: 1rem;
 }
 
 figure {
@@ -206,7 +222,7 @@ figure {
 }
 
 .card-img a:hover {
-  color: #814703;
+  color: #ffb400;
 }
 
 .boxes a {
@@ -219,7 +235,7 @@ figure {
 }
 
 .full a:hover {
-  color: #814703;
+  color: #ffb400;
 }
 
 section {
@@ -267,11 +283,11 @@ section {
   display: flex;
 }
 
-.social img {
-  width: 100%;
-  display: block;
-}
 
+.social img {
+  display: block;
+  width: 100%;
+}
 .social > li {
   margin: 0 .5em;
   width: 3em;
@@ -347,6 +363,18 @@ section {
     display: inline-block;
   }
 
+  .img-small {
+    display: none;
+  }
+
+  .img-big {
+    display: none;
+  }
+
+  .img-38 {
+    display: block;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
@@ -364,6 +392,27 @@ section {
     width: 32%;
   }
 
+  .img-60 {
+    display: block;
+  }
+
+  .img-38 {
+    display: none;
+  }
+
+}
+
+
+@media only screen and (min-width: 70em) {
+
+  .img-70 {
+    display: block;
+  }
+
+  .img-60 {
+    display: none;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -378,6 +427,18 @@ section {
 
   .all-content {
     top: 6rem;
+  }
+
+  .img-big {
+    display: block;
+  }
+
+  .img-70 {
+    display: none;
+  }
+
+  .boxes {
+    padding: 2rem;
   }
 
 }
