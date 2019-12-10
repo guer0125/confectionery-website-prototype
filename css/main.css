@@ -147,7 +147,7 @@ p, a {
 
 .all-content {
   position: absolute;
-  left: 61%;
+  left: 50%;
   top: 50%;
   width: 100%;
   display: flex;
@@ -317,7 +317,6 @@ section {
     justify-content: center;
     position: absolute;
     top: 7rem;
-    left: 50%;
   }
 
 }
