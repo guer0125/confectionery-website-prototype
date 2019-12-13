@@ -269,11 +269,11 @@ section {
   display: flex;
 }
 
-
 .social img {
   display: block;
   width: 100%;
 }
+
 .social > li {
   margin: 0 .5em;
   width: 3em;
@@ -367,7 +367,6 @@ section {
   }
 
 }
-
 
 @media only screen and (min-width: 90em) {
 
